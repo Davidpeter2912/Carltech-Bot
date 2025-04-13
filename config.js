@@ -24,7 +24,7 @@ module.exports = { session: process.env.SESSION_ID || 'SPARK-X-2025;;;eyJub2lzZU
     AUTO_DOWNLOAD_STATUS: process.env.AUTO_DOWNLOAD_STATUS || 'no',
     BOT : process.env.BOT_NAME || 'SPARK-X-2025',
     URL : process.env.BOT_MENU_LINKS || 'https://files.catbox.moe/h2ydge.jpg',
-    MODE: process.env.PUBLIC_MODE || "yes",
+    MODE: process.env.PUBLIC_MODE || "no",
     PM_PERMIT: process.env.PM_PERMIT || 'yes',
     HEROKU_APP_NAME : process.env.HEROKU_APP_NAME,
     HEROKU_APY_KEY : process.env.HEROKU_APY_KEY ,
